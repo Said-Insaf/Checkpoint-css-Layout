@@ -1,0 +1,170 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.headernav {
+  display: flex;
+  position: fixed;
+  top: 2%;
+}
+.logo {
+  width: 20%;
+}
+.menu {
+  float: right;
+  list-style-type: none;
+  margin-left: 50%;
+  display: flex;
+  display: inline;
+  justify-content: space-between;
+}
+.menu li {
+  display: inline;
+  margin-bottom: 60%;
+  width: 20%;
+}
+
+.menu li a {
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color: gray;
+}
+.menu li a:hover {
+  color: #00b396;
+}
+.health-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 10%;
+}
+.Making {
+  color: #00b396;
+}
+.paragraphe {
+  display: flex;
+}
+.gris {
+  color: #747474;
+}
+.green {
+  color: #00b396;
+}
+
+.colorcolown {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  height: 300px;
+}
+.colonnes1 {
+  background-color: darkturquoise;
+  margin: 20px;
+}
+.colonnes2 {
+  background-color: #3d83df;
+  margin: 20px;
+}
+.blanc {
+  color: #fff;
+}
+.colonnes3 {
+  background-color: #1b2734;
+  margin: 20px;
+}
+.selection {
+  display: flex;
+  flex-wrap: wrap;
+}
+.client {
+  display: flex;
+}
+.color {
+  color: #00b396;
+}
+.logo1 {
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: oldlace;
+}
+.logo1 li a :hover {
+  color: #ababab;
+}
+
+.biggest {
+  background-color: #e5faf8;
+  display: flex;
+  background-image: url("logo.png");
+  background-repeat: no-repeat, repeat;
+}
+
+.section-center {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 10%;
+}
+.titre {
+  color: #00b396;
+}
+.background {
+  background-image: image();
+}
+
+.cols {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  background-color: white;
+  text-align: center;
+  width: 40%;
+  padding: 20px;
+  margin: 10px;
+  height: 300px;
+}
+
+.Improve {
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 2% 30%;
+}
+.forever {
+  color: #00b396;
+}
+.countries {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2% 10%;
+}
+.button {
+  display: flex;
+  width: 40%;
+  font-weight: 900;
+  background: #3d83df;
+  color: #fff;
+  float: right;
+}
+.interesting {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 2% 35%;
+}
+.openings {
+  background: #3d83df;
+  color: #fff;
+  text-align: center;
+  font-weight: 1000;
+  margin: 2% 15%;
+  padding: 2%;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #ababab;
+}
